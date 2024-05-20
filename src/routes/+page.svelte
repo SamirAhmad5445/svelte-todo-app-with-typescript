@@ -23,6 +23,7 @@
 
   $effect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
+    isLoading = false;
   })
 
   function addTodo(event: KeyboardEvent): void {
