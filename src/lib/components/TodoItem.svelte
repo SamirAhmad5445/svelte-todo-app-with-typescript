@@ -16,7 +16,7 @@
     data-id={todo.id}
     tabindex="-1"
     onkeypress={onEdit}
-    class="flex-1 py-2 pl-2 bg-transparent rounded-md text-slate-50"
+    class="flex-1 py-2 pl-2 bg-transparent rounded-md text-slate-50 outline-transparent"
   />
   <button
     data-id={todo.id}
